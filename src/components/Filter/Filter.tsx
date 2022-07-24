@@ -23,7 +23,7 @@ export const Filter = () => {
     return (
 
         <FilterContainer>
-            <ButtonFilter onClick={updateDrop}>
+            <ButtonFilter onClick={updateDrop} title={'Change any category to filter products'}>
                 <p>{FilterContext.filter != '' ? FilterContext.filter : 'Categorias' }</p>
                 <BsChevronDown style={drop !== false ? buttonActive : buttonDesactive }/>
             </ButtonFilter>

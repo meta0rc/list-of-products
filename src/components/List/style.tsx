@@ -8,10 +8,11 @@ export const ProductsList = styled.ul`
     justify-content: center;
 `
 export const Headding = styled.h1`
-    margin: 25px 50px;
 `
 export const HeaderProducts = styled.div`
     display: flex;
+    margin: 25px 105px;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     @media (max-width: 768px) {
