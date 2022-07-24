@@ -17,7 +17,7 @@ export const ProductsList = styled.ul`
 export const Headding = styled.h1`
   margin-right: 50px;
 
-  media(max-width: 768px) {
+  @media(max-width: 768px) {
     width: 100%;
     margin: 0 auto;
     text-align: center;
