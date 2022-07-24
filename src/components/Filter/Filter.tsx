@@ -2,7 +2,7 @@ import * as products from '../../data/productsCategory.json'
 import { useContext, useState } from "react"
 import { BsChevronDown } from "react-icons/bs"
 import { ButtonFilter, buttonActive, buttonDesactive, ListFilter, FilterItem, Filter as FilterContainer } from "./style"
-import { Context } from '../../context/fitler'
+import { Context } from '../../context/filter'
 
 export const Filter = () => {
 

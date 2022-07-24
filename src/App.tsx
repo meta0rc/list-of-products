@@ -1,14 +1,13 @@
-import { List } from "./components/List/List"
-import '@fontsource/roboto'
-import { GlobalStyle } from "./styles/globa"
+import { List } from "./components/List/List";
+import "@fontsource/roboto";
+import { GlobalStyle } from "./styles/global";
 function App() {
-
-  return ( 
+  return (
     <>
       <GlobalStyle />
       <List />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
